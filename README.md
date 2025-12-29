@@ -1,6 +1,6 @@
-**Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:**
+## Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:**
 
-**Project Overview:**
+### Project Overview:
 
 Syracuse experiences long and severe winters, with cold weather conditions lasting for a significant portion of the year. For many residents, especially those who are living in the older or rental housing, inadequate heating and poor building insulation can pose serious health and safety risk during winter months. 
 
@@ -37,11 +37,11 @@ This layer focuses only on rental properties, reflecting housing conditions for 
 
 
 
-## Data Structure overview**
+### Data Structure overview**
 
 The following diagram illustrates how five primary data sources are integrated to create the final analytical dataset:
 
-![Data Integration ERD](Untitled_diagram-2025-12-29-184612.png)
+![Data Integration ERD](https://raw.githubusercontent.com/shweta24-dev/syracuse-weatherisation-risk-analysis/main/Untitled%20diagram-2025-12-29-184612.png)
 
 **Figure 1: Entity-Relationship Diagram for Data Integration**
 
@@ -52,6 +52,11 @@ This diagram shows:
 - **Final Dataset** (bottom): WEATHERIZATION_FULL master dataset with all vulnerability scores
 
 All data is standardized to the neighborhood level (n=50) through direct aggregation, SBL-based joins, and spatial joins.
+
+
+### Executive Summary: 
+
+
 
 
 
