@@ -87,7 +87,9 @@ This chart highlights the top 10 Syracuse neighborhoods with the highest number 
 
 
 
+**Visualisation 2: **
 
+top_10_neighborhoods_by_open_heating_violations.png
 
 
 
