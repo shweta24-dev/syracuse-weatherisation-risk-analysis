@@ -87,10 +87,25 @@ This chart highlights the top 10 Syracuse neighborhoods with the highest number 
 
 
 
-**Visualisation 2: **
+## Viz 2:
+![Top 10 Neighborhoods by Open Heating Violations](top_10_neighborhoods_by_open_heating_violations.png)
 
-top_10_neighborhoods_by_open_heating_violations.png
 
+## Viz 3: 
+![Rental_Compliance vs Heating Violations](Rental_NonComplaince_Heating_Vioaltions_detailed.png)
+
+## Viz 4: 
+![Housing Age vs Heating Violations](housing_lollipop)
+
+
+##Viz 5: 
+
+![snap_pct vs heating violations](snap_heating.png)
+
+##Viz 6:
+
+
+![Final Heatmap](final_heat_map.png)
 
 
 
