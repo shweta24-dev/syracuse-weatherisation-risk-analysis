@@ -73,7 +73,7 @@ All data is standardized to the neighborhood level (n=50) through direct aggrega
 
 ## Insights Deep Dive: 
 
-**1. Top 10 Neighborhoods wiht highest total heating violations**
+### Top 10 Neighborhoods wiht highest total heating violations
 
 <img width="1088" height="653" alt="image" src="https://github.com/user-attachments/assets/bcc506a7-1032-4b34-a40f-669748456da7" />
 
@@ -91,7 +91,7 @@ This chart highlights the top 10 Syracuse neighborhoods with the highest number 
 
 
 
-## Top 10 neighbourhoods with highest open violations:
+### Top 10 neighbourhoods with highest open violations:
 ![Top 10 Neighborhoods by Open Heating Violations](top_10_neighborhoods_by_open_heating_violations.png)
 
 When we compare current open heating violations with historical total heating violations, we see a strong overlap across several neighborhoods. The neighborhoods that appear in both lists are:
@@ -105,31 +105,113 @@ This overlap is important because it shows neighborhoods where heating issues ar
 Neighborhoods that rank high in both historical and current open heating violations represent the highest priority for intervention, as they face long-standing heating challenges that remain unresolved today. Targeting these areas can help the city address both legacy issues and ongoing resident safety concerns more effectively.
 
 
-## Rental Non-Compliance vs Heating Violations - A scatter plot: 
+### Rental Non-Compliance vs Heating Violations - A scatter plot: 
 ![Rental_Compliance vs Heating Violations](Rental_NonComplaince_Heating_Vioaltions_detailed.png)
 
 This scatter plot shows a clear positive relationship between rental non-compliance rates and total heating violations across neighborhoods. Neighborhoods with higher percentages of non-compliant rental properties tend to report more heating violations, with Northside, Near Westside, Brighton, and Washington Square standing out as areas where both values are high.
 
 This aligns strongly with the correlation analysis, where the rental risk score showed the strongest positive correlation with total heating violations among all variables examined. This indicates that rental non-compliance is not just associated with heating problems—it is likely a key structural driver of weatherization risk in the city.
 
-Why this matters:
+**Why this matters:**
+
 Improving rental compliance—through inspections, enforcement, or landlord support—may be one of the most effective levers available to reduce heating-related risks and improve resident safety, especially in neighborhoods with persistently high violation counts.
 
-## Viz 4: 
-![Housing Age vs Heating Violations](housing_lollipop)
+### Housing Age vs Heating Violations:  
+![Housing Age vs Heating Violations](housing_lollipop.png)
+
+Neighborhoods with a higher share of older homes (built before 1960) tend to have more heating violations.
+
+1. High-risk neighborhoods like Northside, Near Westside, Brighton, and Washington Square have both older housing stock and higher violation counts.
+
+2. Older buildings are more likely to have outdated heating systems, poor insulation, and deferred maintenance, increasing winter heating issues.
+
+**Why this matters:**
+
+Housing age helps explain why certain neighborhoods consistently face heating problems and highlights where weatherization upgrades could have the biggest impact.
 
 
-##Viz 5: 
+## SNAP % VS Heating Violations:
 
 ![snap_pct vs heating violations](snap_heating.png)
 
-##Viz 6:
+As the percentage of households receiving SNAP increases, the average number of heating violations also increases.
 
+1.Neighborhoods with 40%+ SNAP participation have the highest average heating violations.
 
+2.Neighborhoods with lower SNAP percentages show significantly fewer violations.
+
+**What this tells us:**
+
+Heating risk is not just a housing issue — it is also closely linked to economic vulnerability. Areas with higher SNAP usage may have less ability to afford repairs, making them more exposed during winter.
+
+## HeatMap of 
 ![Final Heatmap](final_heat_map.png)
 
+This heatmap brings together all the major risk factors into one view to identify the most vulnerable neighborhoods.
+
+Each row is a neighborhood, and each column represents a different type of risk:
+
+**Current Heating Risk** → ongoing, unresolved heating issues
+
+**Rental Non-Compliance** → proportion of rental units failing inspections
+
+**Census Vulnerability** → socioeconomic vulnerability (income, SNAP, poverty)
+
+**Compound Score** → average of all three (overall risk)
+
+**Darker red cells indicate higher risk.**
 
 
+**Key Insights from the Heatmap:**
+
+1.Northside clearly stands out as the most vulnerable neighborhood, scoring high across all three dimensions, resulting in the highest overall risk score.
+
+2.Brighton, Near Westside, and Southside also show consistently elevated risk, driven by a combination of housing issues and socioeconomic vulnerability.
+
+3.Some neighborhoods (e.g., Southside, Skunk City) have moderate current heating risk but very high census vulnerability, indicating residents may be less able to recover from heating failures.
+
+4.Lower-ranked neighborhoods show more balanced or lower scores, suggesting fewer compounding risk factors.
+
+
+**NOTE:**
+
+The census vulnerability score was calculated as the average of three normalized indicators: percentage of SNAP households, poverty rate, and share of housing built before 1960. The rental risk score represents a scaled version of the rental non-compliance rate (percentage of rental properties failing inspection), allowing it to be compared with other risk measures. The final compound risk score is the average of current heating risk, rental risk, and census vulnerability scores.
+
+## Recommendations
+
+Based on the combined risk assessment across heating violations, rental non-compliance, and socioeconomic vulnerability, the following actions are recommended:
+
+### 1. Prioritize High-Risk Neighborhoods for Weatherization Funding
+
+Neighborhoods such as Northside, Brighton, Near Westside, and Southside consistently rank high across multiple risk dimensions. These areas should be prioritized for:
+
+1.Targeted weatherization assistance programs
+
+2.Preventive heating system upgrades before winter months
+
+3.Increased inspection frequency during peak winter periods
+
+### 2. Focus on Rental Properties with Repeated Non-Compliance
+
+The strong positive correlation between rental non-compliance and heating violations suggests that enforcement and support efforts should focus on rental units, especially those with repeated inspection failures.
+Recommended actions include:
+
+1.Proactive follow-ups on failed rental inspections
+
+2.Incentives or penalties tied to timely compliance
+
+3.Coordination with landlords to address systemic heating issues
+
+### 3. Integrate Socioeconomic Vulnerability into Planning Decisions
+
+Neighborhoods with high SNAP participation and poverty levels experience higher heating risk, even when violation counts are moderate.
+Policy decisions should:
+
+Consider residents’ ability to self-remediate heating issues
+
+Pair infrastructure improvements with resident support programs
+
+Use census vulnerability metrics when allocating limited resources
 
 
 
