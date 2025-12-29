@@ -1,6 +1,6 @@
-## Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:
+# Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:
 
-### Project Overview:
+## Project Overview:
 
 Syracuse experiences long and severe winters, with cold weather conditions lasting for a significant portion of the year. For many residents, especially those who are living in the older or rental housing, inadequate heating and poor building insulation can pose serious health and safety risk during winter months. 
 
@@ -10,14 +10,16 @@ The **primary objective** is to support data-driven prioritization for the City 
 
 The key stakeholders for this analysis are city policymakers and housing officials, who can use these insights to allocate resources more effectively, and Syracuse residents, who may use this information to better understand heating-related risks in their communities.
 
-**Key Metrics used for Risk Prioritisation**
+### Key Metrics used for Risk Prioritisation
 
 To assess weatherszation risk across Syracuse neighborhoods, this project integrates three complementary layers of data: heating system reliability, rental compliance, and neighborhood vulnerability indicators.
 
 **1.Heating Violation Metrics (Primary Risk Signal):** Heating-related code violations serve as the core indicator of weatherization risk.
 
 a. Space heating system and water heating system violations
+
 b. Total heating violations per neighborhood 
+
 c. Open vs. closed violations, capturing both: Historical risk (past violations) and Current risk (open, unresolved violations)
 
 📅 Violation data spans from 2017 to 2025, enabling both historical and current risk assessment.
@@ -25,8 +27,10 @@ c. Open vs. closed violations, capturing both: Historical risk (past violations)
 **2. Rental Compliance Metrics (Housing Condition & Accountability):** Rental compliance data provides insight into the structural and regulatory condition of rental housing stock.
 
 a. Total rental properties per neighborhood ( Rental Concentration)
+
 b. Invalid rental registrations
-c. Rental risk score, combining: Rental concentration and Rental non-compliance rate
+
+c. Rental risk score, combining: Rental concentration and Rental non-compliance rate (RR - InvalidRate)
 
 This layer focuses only on rental properties, reflecting housing conditions for residents most dependent on landlord-maintained heating systems.
 
@@ -37,7 +41,7 @@ This layer focuses only on rental properties, reflecting housing conditions for 
 
 
 
-### Data Structure overview
+## Data Structure overview
 
 The following diagram illustrates how five primary data sources are integrated to create the final analytical dataset:
 
@@ -87,12 +91,29 @@ This chart highlights the top 10 Syracuse neighborhoods with the highest number 
 
 
 
-## Viz 2:
+## Top 10 neighbourhoods with highest open violations:
 ![Top 10 Neighborhoods by Open Heating Violations](top_10_neighborhoods_by_open_heating_violations.png)
 
+When we compare current open heating violations with historical total heating violations, we see a strong overlap across several neighborhoods. The neighborhoods that appear in both lists are:
 
-## Viz 3: 
+Northside, Park Ave, Brighton, Lincoln Hill, North Valley, Near Westside, Washington Square, Elmwood, and Southwest.
+
+This overlap is important because it shows neighborhoods where heating issues are persistent over time, not just temporary spikes. In contrast, Eastwood appears mainly in historical violations (suggesting some improvement), while Skunk City appears only in current open violations (indicating a more recent or emerging issue).
+
+**Key takeaway:**
+
+Neighborhoods that rank high in both historical and current open heating violations represent the highest priority for intervention, as they face long-standing heating challenges that remain unresolved today. Targeting these areas can help the city address both legacy issues and ongoing resident safety concerns more effectively.
+
+
+## Rental Non-Compliance vs Heating Violations - A scatter plot: 
 ![Rental_Compliance vs Heating Violations](Rental_NonComplaince_Heating_Vioaltions_detailed.png)
+
+This scatter plot shows a clear positive relationship between rental non-compliance rates and total heating violations across neighborhoods. Neighborhoods with higher percentages of non-compliant rental properties tend to report more heating violations, with Northside, Near Westside, Brighton, and Washington Square standing out as areas where both values are high.
+
+This aligns strongly with the correlation analysis, where the rental risk score showed the strongest positive correlation with total heating violations among all variables examined. This indicates that rental non-compliance is not just associated with heating problems—it is likely a key structural driver of weatherization risk in the city.
+
+Why this matters:
+Improving rental compliance—through inspections, enforcement, or landlord support—may be one of the most effective levers available to reduce heating-related risks and improve resident safety, especially in neighborhoods with persistently high violation counts.
 
 ## Viz 4: 
 ![Housing Age vs Heating Violations](housing_lollipop)
