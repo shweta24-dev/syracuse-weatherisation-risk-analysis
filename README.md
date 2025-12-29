@@ -1,4 +1,4 @@
-## Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:**
+## Title: Analysing Weatherisation Risk across Syracuse Neighbourhoods:
 
 ### Project Overview:
 
@@ -68,6 +68,16 @@ All data is standardized to the neighborhood level (n=50) through direct aggrega
 
 
 ## Insights Deep Dive: 
+
+**1. Top 10 Neighborhoods wiht highest total heating violations**
+
+<img width="1088" height="653" alt="image" src="https://github.com/user-attachments/assets/bcc506a7-1032-4b34-a40f-669748456da7" />
+
+
+**2. Top 10 neighborhoods with highesht open heating violations:**
+
+
+
 
 
 
