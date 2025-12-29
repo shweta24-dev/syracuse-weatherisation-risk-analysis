@@ -37,7 +37,7 @@ This layer focuses only on rental properties, reflecting housing conditions for 
 
 
 
-### Data Structure overview**
+### Data Structure overview
 
 The following diagram illustrates how five primary data sources are integrated to create the final analytical dataset:
 
