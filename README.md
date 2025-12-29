@@ -37,7 +37,21 @@ This layer focuses only on rental properties, reflecting housing conditions for 
 
 
 
-**Data Structure overview**
+## Data Structure overview**
+
+The following diagram illustrates how five primary data sources are integrated to create the final analytical dataset:
+
+![Data Integration ERD](Untitled_diagram-2025-12-29-184612.png)
+
+**Figure 1: Entity-Relationship Diagram for Data Integration**
+
+This diagram shows:
+- **Raw Data Sources** (top): Code Violations, Rental Registry, Census DP03/DP04, Neighborhood Geography
+- **Mapping Tables** (middle): SBL-to-Neighborhood and Census Tract-to-Neighborhood mappings
+- **Aggregated Metrics** (lower middle): Heating metrics, Rental compliance, Census features by neighborhood
+- **Final Dataset** (bottom): WEATHERIZATION_FULL master dataset with all vulnerability scores
+
+All data is standardized to the neighborhood level (n=50) through direct aggregation, SBL-based joins, and spatial joins.
 
 
 
