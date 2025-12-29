@@ -54,9 +54,20 @@ This diagram shows:
 All data is standardized to the neighborhood level (n=50) through direct aggregation, SBL-based joins, and spatial joins.
 
 
-### Executive Summary: 
+## Executive Summary
+
+![Neighborhood Weatherization Risk Quadrant](quadrant_image.png)
+
+1. A small group of Syracuse neighborhoods face both high historical heating violations and high current unresolved risk, placing them in the highest-priority category for weatherization intervention. Northside stands out as the most extreme case.
+
+2. This quadrant view highlights where risk is persistent versus improving, helping policymakers distinguish between neighborhoods with chronic heating issues and those where conditions are stabilizing.
+
+3. Further analysis of rental compliance and census data shows that neighborhoods in the high-risk quadrants also tend to have higher rental non-compliance and greater economic vulnerability, suggesting that heating risk is closely linked to housing conditions and socio-economic stressors.
+
+4. Together, these findings support a targeted approach to weatherization, focusing first on neighborhoods with both sustained heating violations and structural or economic risk factors.
 
 
+## Insights Deep Dive: 
 
 
 
