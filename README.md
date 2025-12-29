@@ -73,8 +73,22 @@ All data is standardized to the neighborhood level (n=50) through direct aggrega
 
 <img width="1088" height="653" alt="image" src="https://github.com/user-attachments/assets/bcc506a7-1032-4b34-a40f-669748456da7" />
 
+This chart highlights the top 10 Syracuse neighborhoods with the highest number of heating-related violations reported between 2017 and 2025.
 
-**2. Top 10 neighborhoods with highesht open heating violations:**
+**Key takeaway**
+
+1. Northside stands out clearly, with more than double the heating violations of any other neighborhood.
+
+2. A small group of neighborhoods (Northside, Near Westside, Brighton, Washington Square) accounts for a disproportionately large share of heating issues.
+
+3. This suggests that heating-related risk is not evenly distributed across the city, but concentrated in specific areas.
+
+**Why this matters** These neighborhoods represent priority areas for weatherization efforts and enforcement. Targeting interventions in a small number of high-risk neighborhoods could have a large impact on resident safety and comfort.
+
+
+
+
+
 
 
 
