@@ -73,7 +73,7 @@ All data is standardized to the neighborhood level (n=50) through direct aggrega
 
 ## Insights Deep Dive: 
 
-### Top 10 Neighborhoods wiht highest total heating violations
+### Top 10 Neighborhoods by highest total heating violations
 
 <img width="1088" height="653" alt="image" src="https://github.com/user-attachments/assets/bcc506a7-1032-4b34-a40f-669748456da7" />
 
@@ -91,7 +91,7 @@ This chart highlights the top 10 Syracuse neighborhoods with the highest number 
 
 
 
-### Top 10 neighbourhoods with highest open violations:
+### Top 10 neighbourhoods by highest open violations:
 ![Top 10 Neighborhoods by Open Heating Violations](top_10_neighborhoods_by_open_heating_violations.png)
 
 When we compare current open heating violations with historical total heating violations, we see a strong overlap across several neighborhoods. The neighborhoods that appear in both lists are:
@@ -144,7 +144,7 @@ As the percentage of households receiving SNAP increases, the average number of 
 
 Heating risk is not just a housing issue — it is also closely linked to economic vulnerability. Areas with higher SNAP usage may have less ability to afford repairs, making them more exposed during winter.
 
-## HeatMap of 
+## HeatMap: 
 ![Final Heatmap](final_heat_map.png)
 
 This heatmap brings together all the major risk factors into one view to identify the most vulnerable neighborhoods.
